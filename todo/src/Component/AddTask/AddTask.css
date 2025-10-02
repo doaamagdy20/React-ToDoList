@@ -1,0 +1,25 @@
+.addtask {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.addtask input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.addtask button {
+  padding: 8px 12px;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.addtask button:hover {
+  background: #2980b9;
+}
